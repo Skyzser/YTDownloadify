@@ -1,2 +1,2 @@
 # YT2MP3
-A YouTube to MP3 converter that takes a YouTube video link, converts it to an .mp3 format, and downloads to user's machine.
+A YouTube to MP3 web-based converter app, which takes a user query, converts it to an MP3 file, and allows the user to download onto their local machine.
