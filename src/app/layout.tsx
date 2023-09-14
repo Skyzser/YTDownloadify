@@ -19,9 +19,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className='ms-10 me-10 mt-5 mb-5 dark_BGPrimary dark_TextPrimary'>
+      <body className='flex flex-col h-screen dark_BGPrimary dark_TextPrimary'>
         <Navbar />
-        <div>{children}</div>
+        <div className='flex flex-1 overflow-auto'>{children}</div>
         <Footer />
       </body>
     </html>
