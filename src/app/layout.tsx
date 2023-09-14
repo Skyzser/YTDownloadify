@@ -7,9 +7,9 @@ import Footer from '@/components/footer';
 import './globals.css';
 
 export const metadata: Metadata = {
-  title: 'YT2MP3',
-  description: 'Converts YouTube videos to MP3 files.',
-  keywords: 'youtube, mp3, converter',
+  title: 'YTDownloadify',
+  description: 'Downloads YouTube videos to MP3/MP4 files.',
+  keywords: 'youtube, mp3, mp4, converter',
 }
 
 export default function RootLayout({
