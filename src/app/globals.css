@@ -2,11 +2,31 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Dark colours */
 .dark_BGPrimary { @apply bg-slate-950; }
+.dark_BGSecondary { @apply bg-slate-900; }
 
 .dark_TextPrimary { @apply text-slate-50; }
 
 .dark_Hover {
     @apply hover:text-blue-400;
     @apply cursor-pointer;
+}
+
+/* Light colours */
+
+
+/* Text */
+.custom_Title {
+    @apply text-3xl;
+    @apply font-bold;
+}
+
+.custom_Subtitle {
+    @apply text-xl;
+    @apply font-semibold;
+}
+
+.custom_Text {
+    @apply text-base;
 }
