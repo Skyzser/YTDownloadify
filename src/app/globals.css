@@ -8,12 +8,12 @@
 
 .dark_TextPrimary { @apply text-slate-50; }
 
-.dark_Hover {
-    @apply hover:text-blue-400;
-    @apply cursor-pointer;
-}
 
 /* Light colours */
+.light_BGPrimary { @apply bg-slate-100; }
+.light_BGSecondary { @apply bg-slate-300; }
+
+.light_TextPrimary { @apply text-slate-800; }
 
 
 /* Text */
@@ -29,4 +29,9 @@
 
 .custom_Text {
     @apply text-base;
+}
+
+.custom_Hover {
+    @apply hover:text-blue-500;
+    @apply cursor-pointer;
 }
