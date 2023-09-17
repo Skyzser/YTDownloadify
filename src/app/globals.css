@@ -5,13 +5,11 @@
 /* Dark colours */
 .dark_BGPrimary { @apply bg-slate-950; }
 .dark_BGSecondary { @apply bg-slate-900; }
-.dark_Text { @apply text-slate-50; }
 
 
 /* Light colours */
 .light_BGPrimary { @apply bg-slate-100; }
 .light_BGSecondary { @apply bg-slate-300; }
-.light_Text { @apply text-slate-800; }
 
 
 /* Text */
