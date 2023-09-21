@@ -1,8 +1,8 @@
 import { Metadata } from 'next';
 
 import Providers from '@/components/providers';
-import Navbar from '@/components/navbar';
-import Footer from '@/components/footer';
+import Navbar from '@/components/Layout/navbar';
+import Footer from '@/components/Layout/footer';
 
 import './globals.css';
 import 'bootstrap-icons/font/bootstrap-icons.css';
