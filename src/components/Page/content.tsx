@@ -1,9 +1,9 @@
 interface ContentProps {
-    text: string;
+    input: string;
 }
 
-export default function Content({ text }: ContentProps) {
+export default function Content({ input }: ContentProps) {
     return (
-        <h1>{(!text) ? "Nothing" : text}</h1>
+        <h1>{(!input) ? "Nothing" : input}</h1>
     )
 }
