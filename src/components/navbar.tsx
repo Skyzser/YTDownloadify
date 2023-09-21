@@ -10,7 +10,7 @@ export default function Navbar() {
             <div className='custom_Title'>YTDownloadify</div>
             <div className='custom_Title flex flex-nowrap'>
                 <i
-                    className={`bi bi-${theme === 'dark' ? 'sun' : 'moon'} me-5 custom_Hover`}
+                    className={`bi bi-${theme === 'dark' ? 'sun' : 'moon'}-fill me-5 custom_Hover`}
                     onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}
                 ></i>
             </div>
